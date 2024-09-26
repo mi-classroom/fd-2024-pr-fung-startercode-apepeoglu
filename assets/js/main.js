@@ -1,5 +1,6 @@
 import { initworkList } from './modules/generateContent.js';
 import { slideshow } from './modules/slideshow.js';
+import { showMoreWork } from './modules/showMoreWork.js';
 
 /* Main
 ############################################################################ */
@@ -7,5 +8,6 @@ import { slideshow } from './modules/slideshow.js';
 document.addEventListener('DOMContentLoaded', function () {
   hljs.highlightAll();
   initworkList();
+  showMoreWork();
   slideshow();
 });

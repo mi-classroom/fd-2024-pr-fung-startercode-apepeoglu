@@ -36,8 +36,8 @@ function generateMarkupForworkList(data) {
     workList.innerHTML = '';
     workList.innerHTML = data.map(work => {
         return `
-                    <li class="topic-item">
-          <a class="wrap" href="${work.url}">
+                    <li class="topic-item" data-js-finished-work="">
+          <a href="${work.url}">
             <h3>${work.title}</h3>
             <p>${work.date}</p>
             <ul class="keywords">
