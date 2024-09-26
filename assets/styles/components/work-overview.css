@@ -1,2 +1,42 @@
 /* Work Overview
 ############################################################################ */
+main{
+    margin: var(--size-xl);
+}
+
+h2:nth-child(2){
+    color: var(--color-dark);
+}
+
+header.header{
+    padding-bottom: var(--size-s);
+}
+
+img{
+    width: auto;
+    max-height: 300px;
+}
+
+.key-informations{
+    width: 100%;
+    margin-bottom: var(--size-m);
+
+    li{
+        padding: var(--size-s);
+        padding-left: 0;
+        border-bottom: 1px solid var(--color-green);
+    }
+
+    li:first-of-type{
+        border-top: 1px solid var(--color-green);
+    }
+
+    span{
+        font-weight: var(--fw-medium);
+    }
+
+    a{
+        border-bottom: 0;
+        color: var(--color-pink);
+    }
+}
