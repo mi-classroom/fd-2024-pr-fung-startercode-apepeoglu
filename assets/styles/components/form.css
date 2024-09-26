@@ -3,3 +3,44 @@
 
 /* Form
 ############################################################################ */
+.form{
+    padding: var(--size-l);
+    background-color: var(--color-dark);
+    color: #fff;
+  
+    h2, p{
+      color: inherit;
+    }
+  
+    button, input, textarea{
+      color: inherit;
+    }
+  
+    p:first-of-type{
+      margin-top: var(--size-xl);
+      margin-bottom: var(--size-xl);
+    }
+  
+    .form-input{
+      border-bottom: 1px solid var(--color-green);
+      margin-bottom: var(--size-l);
+    }
+  
+    input, textarea {
+      width: 100%;
+      color: white;
+      font-family: inherit;
+      font-size: 1em;
+    }
+  
+    textarea{
+      resize: none;
+    
+    }
+    
+    button{
+      padding: var(--size-s) var(--size-m);
+      margin-bottom: var(--size-xl);
+      background-color: var(--color-pink);
+    }
+  }
